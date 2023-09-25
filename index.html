@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+    <div class="main" align="center">
+        <h5>Choose Units:</h5>
+        <div class="Mbtn">
+            <button id="Cel" onclick="toCel()">Celcius</button>
+            <button id="Fah" onclick="toFah()">Fahrenheit</button>
+            <button id="Kel" onclick="toKel()">Kelvin</button>
+            <button id="Rea" onclick="toRea()">Reaumur</button>
+        </div>
+        <div class="in">
+            <input type="text" id="input" placeholder="Temperature">
+            <button id="Calc" onclick="funcCel()">Calc</button>
+        </div>
+        <div class="hasil">
+            <p>Celcius: <span id="p1"></p></span><br>
+            <p>Fahrenheit: <span id="p2"></span></p><br>
+            <p>Kelvin: <span id="p3"></span></p><br>
+            <p>Reamur: <span id="p4"></span></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
